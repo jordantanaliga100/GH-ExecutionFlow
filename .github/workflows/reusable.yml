@@ -11,9 +11,9 @@ on:
       result:
         description: The result of the deployed units
         value: ${{jobs.deploy.outputs.outcome}}
-    secrets:
-      some-secret:
-        required: true
+    # secrets:
+    #   some-secret:
+    #     required: true
 
 jobs:
   deploy:
